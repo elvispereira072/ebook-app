@@ -253,3 +253,63 @@ button:hover {
     }
 }
 
+
+
+header {
+    background-color: #4CAF50; /* Cor de fundo do header */
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative; /* Necessário para o pseudo-elemento :before */
+    border: 5px solid transparent; /* Define uma borda transparente para criar espaço para o gradiente */
+    border-image: linear-gradient(45deg, #ff7e5f, #feb47b); /* Gradiente para a borda */
+    border-image-slice: 1; /* Faz com que o gradiente se ajuste à borda */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50; /* Cor de fundo do header */
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative; /* Necessário para o pseudo-elemento :before */
+    border: 5px solid transparent; /* Define uma borda transparente para criar espaço para o gradiente */
+    border-image: linear-gradient(45deg, #ff7e5f, #feb47b); /* Gradiente para a borda */
+    border-image-slice: 1; /* Faz com que o gradiente se ajuste à borda */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+
+
+.chapter {
+    background-color: #ffffff; /* Cor de fundo do div */
+    padding: 20px;
+    border: 5px solid transparent; /* Define uma borda transparente para criar espaço para o gradiente */
+    border-image: linear-gradient(45deg, #ff7e5f, #feb47b); /* Gradiente para a borda */
+    border-image-slice: 1; /* Faz com que o gradiente se ajuste à borda */
+    border-radius: 10px; /* Adiciona bordas arredondadas para um visual mais suave */
+    margin: 20px 0; /* Espaçamento superior e inferior */
+}
+
+.chapter h2 {
+    margin: 0;
+    color: #333;
+    font-size: 1.5em;
+}
+
